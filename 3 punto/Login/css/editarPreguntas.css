@@ -1,0 +1,46 @@
+table {
+  border-bottom: 1px solid #df2218;
+  width: 100%;
+}
+
+th {
+  background: gray;
+  color: #fff;
+  text-align: center;
+}
+
+td{
+  color: #fff;
+  text-align: center;
+}
+
+
+i{
+  color: #fff;
+}
+
+.cliente {
+  background: #fff;
+}
+
+.estado{
+  background: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  color: #d00;
+}
+
+i:hover{
+  color: #d00;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}

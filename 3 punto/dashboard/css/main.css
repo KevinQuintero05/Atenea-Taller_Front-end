@@ -1,0 +1,37 @@
+
+
+/*estilos para la tabla*/
+table th {
+    background-color: #000 !important;
+    color: white;
+}
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+  position: absolute !important;
+}
+
+h5{
+color: #d00;
+}
+
+p{
+  color: #fff;
+}
+
+#chartContainer{
+  height: 300px; width: 100%;
+}
+
+#imgicon {
+  padding:5px
+}
+
+.containerimg, .img{
+  width:300px;
+  padding:2px;
+  margin: auto;
+}

@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="plugins/sweetAlert2/sweetalert2.min.css">
+
+  <!--iconos-->
+  <link href="fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+
+
+  <title>CONCORD</title>
+  <link rel="shortcut icon" href="img/LOGO B 1 vareacion 1 Black.png" type="image/x-icon">
+</head>
+
+<body>
+  <!--========================================================== -->
+  <!-- ENCABEZADO -->
+  <!--========================================================== -->
+  <header class="container-fluid bg-dark d-flex justify-content-center text-center ">
+    <div class="containerimg">
+      <img id="imgicon" src="img/LOGO B1 sin relleno blanco.png" class="img-fluid" alt="Responsive image">
+    </div>
+
+  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+    <div class="container">
+      <a class="navbar-brand" href="#TEmpresa">
+        <span class="fs-5 text-danger fw-bold">CONCORD</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#local  ">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicio</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+
+          <a href="Login/index.html" target="_blank">
+            <button class="btn btn-light btn-outline-dark fw-light" type="button">INGRESAR</button>
+          </a>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--========================================================== -->
+  <!-- SLIDER DE IMAGENES-->
+  <!--========================================================== -->
+
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./img/slide1.jpg" class="d-block w-100" alt="">
+      </div>
+
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+      </div>
+
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+      </div>
+
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!--========================================================== -->
+  <!-- INTRODUCCION DE SERVICIOS-->
+  <!--========================================================== -->
+
+
+  <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+    id="intro">
+    <h1 class="p-3 fs-2 border-top border-3 fw-light">CONC<span class="text-danger fw-light">ORD</span></h1>
+    <p class="p-3  fs-4">
+      <span class="text-danger">Cada dia es un viaje,</span> disfruta del tuyo.
+    <p></p>
+    <p></p>
+    <h1 class="p-3 fs-3  border-3 fw-light">SERVICIOS</h1>
+    </p>
+  </section>
+
+  <!--========================================================== -->
+  <!-- TIPOS DE SERVICIOS-->
+  <!--========================================================== -->
+  <section id="servicios" class="w-100">
+    <div class="card-group">
+      <div class="card">
+        <img src="img/slide1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Crear una Reserva</h5>
+          <p class="card-text">En CONCORD contamos con una amplia gama de vehiculos y servicios que se adecuane a sus
+            necesidades</p>
+          <a href="Login/index.html" target="_blank">
+            <button class="btn btn-light btn-outline-dark fw-light" type="button">INGRESAR</button>
+          </a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">La confirmacion de las reservas se hacen una vez que se realice el pago del
+            servicio</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/van.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rentar un vehiculo para sus necesidades</h5>
+          <p class="card-text">En CONCORD ofrecemos soluciones tanto para clientes como empresas con tal de satisfacer
+            sus necesidades a traves de nuestros servicios</p>
+          <a href="Login/index.html" target="_blank">
+            <button class="btn btn-light btn-outline-dark fw-light" type="button">INGRESAR</button>
+          </a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Nuestros vehiculos son desinfectadod una vez que se termine el servicio</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/headset-6617715_1280-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Atencion al Cliente</h5>
+          <p class="card-text">En CONCORD contamos con el personal altamente calificado para atender a sus necesidades y
+            consultas</p>
+          <a href="Login/index.html" target="_blank">
+            <button class="btn btn-light btn-outline-dark fw-light" type="button">INGRESAR</button>
+          </a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Recuerde que el chofer solo conduce el vehiculo segum l;a ruta programada</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--========================================================== -->
+  <!-- Galeria-->
+  <!--========================================================== -->
+
+  <section class="portafolio">
+    <div class="contenedor">
+      <div class="d-grid gap-2 d-md-flex justify-content-center">
+        <h2 class="titulo p-3">Catalogo</h2>
+      </div>
+      <div class="galeria-port">
+        <div class="imagen-port">
+          <img src="img/colombia-4878721.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/colombia-4909308.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/colombia-4924705.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/colombia-4936995.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/fiat-4322521.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/nissan-1694345.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/coast-1845309.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+        <div class="imagen-port">
+          <img src="img/carros.jpg" alt="">
+          <div class="hover-galeria">
+            <a href="Login/index.html"><img src="img/icono1.png" alt=""></a>
+            <p>Ingresar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="local" class="border-top border-2 ">
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.4476126774016!2d-74.03507371323438!3d4.69201752710993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9aa6b95a32a3%3A0xf670b8dd9c1151b5!2sTeleport%20Business%20Park%20Mizpah%20Group!5e0!3m2!1ses!2sco!4v1699588545094!5m2!1ses!2sco"
+        width="650" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div>
+      <div class="wrapper-local">
+        <h2>Ubicada en Bogotá</h2>
+        <h2 class="text-danger mb-4" id="typewriter"></h2>
+        <p class="fs-5 text-body">Elijimos Bogota para nuestra empresa con el objetivo de estar cerca a nuestros
+          clientes. Estamos ubicados en Cl. 140 #19-99 a 19-1, Bogotá. ¡Visitennos y no se arrepentiran!</p>
+        <section class="d-flex justify-content-start" id="numeros-local">
+          <div>
+            <p class="text-danger fs-5">200</p>
+            <p>Dias de Sol</p>
+          </div>
+          <div>
+            <p class="text-danger fs-5">100%</p>
+            <p>Aprobado</p>
+          </div>
+          <div>
+            <p class="text-danger fs-5">24 °C</p>
+            <p>Temperatura</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!--========================================================== -->
+  <!-- Preguntas Frecuentes -->
+  <!--========================================================== -->
+  <h2>Preguntas Frecuentes <i class="fa-solid fa-comment-dots"></i></h2>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Donde realizo el Pago de mis reservas?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>El pago de nuestros servicios pueden realizarse desde otras plataformas de pago, ya sea PSE o por
+            medio de trasacciones bancarias o de tarjeta de credito. No en la platafroma de la pagina</code>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Usan los protocolos de Bioseguridad?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Por supuesto, de acuerdo con las politicas y dictamenes del gobierno Nacional y de las politicas de
+            nuestra empresa, nuestra priodridad es su seguridad <code></code>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Que hago si el vehiculo que he reservado no llega al punto a la dirreccion de partida acordado?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>En todo caso debe de estar pendiente de las notificaciones y/o fecha y lugar programados de la
+            reserva, tambien puede contactarnos y resolver sus inquietudes<code> </code>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+          aria-expanded="true" aria-controls="collapseFour">
+          porque en mi agenda aparece reserva en espera de confirmacion?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Como politica de la empresa, las reservas solo se confirman cuando el pago o la trasaccion del mismo
+            por el servicio alquilado se realice</code>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <br>
+  <br>
+  <br>
+  <br><br> <br><br><br>
+
+  </section>
+
+
+  <!--========================================================== -->
+  <!-- SECCION CONTACTOS-->
+  <!--========================================================== -->
+
+  <section id="seccion-contacto">
+    <div id="bg-contactos">
+
+    </div>
+
+
+    <!--========================================================== -->
+    <!-- CONTENEDOR DEL FORMULARIO -->
+    <!--========================================================== -->
+
+    <div class="container  border-top border-secondary " id="formp" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Danos tu opinion</h2>
+        <p class="fs-5">Estamos aqui para servir</p>
+      </div>
+
+
+
+      <form method="POST" data-netlify="true" action="#">
+        <div class="mb-3">
+          <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+        </div>
+
+
+        <div class="mb-3">
+          <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+        </div>
+
+
+        <div class="mb-3">
+          <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+        </div>
+
+        <div class="mb-3">
+          <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <button type="submit" class=" btn btn-dark w-100 fs-5">Enviar Mensaje</button>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+
+
+
+  <!--========================================================== -->
+  <!--FOOTER-->
+  <!--========================================================== -->
+
+
+  <footer id="contacto" class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col">
+          <p class="fs-3 px-3 text-white pt-3">&copy;Kevin Quintero.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="administracion">
+      <div>
+        <img id="footlogo" src="img/LOGO B1 sin relleno blanco.png">
+      </div>
+
+    </div>
+
+    <div id="iconos">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

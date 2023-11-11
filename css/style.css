@@ -1,0 +1,114 @@
+* {}
+
+.card {
+    margin: 30px;
+}
+
+#punto4 {
+    text-align: center;
+}
+
+.azul {
+    color: blue;
+}
+
+.rojo {
+    color: red;
+}
+
+.p1 {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.p2 {
+    color: red;
+    font-weight: bold;
+}
+
+.p3 {
+    text-decoration: overline underline;
+}
+
+.p4 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.p5 {
+    font-weight: bold;
+    color: blue;
+}
+
+.p6 {
+    color: red;
+    text-decoration: underline;
+}
+
+.enlace1 {
+    font-size: 30px;
+    color: yellow;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.enlace1:hover {
+    color: blue;
+}
+
+.enlace2 {
+    font-size: 30px;;
+    color: purple;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.enlace2:hover {
+    color: aqua;
+}
+
+#punto7 nav {
+    background-color: pink;
+}
+
+#punto7 ul {
+    display: inline-flex;
+}
+
+#punto7 li {
+    padding: 15px 10px;
+    list-style: none;
+    margin: 2px;
+}
+
+#punto7 li:hover {
+    background-color: blue;
+}
+
+#punto7 i {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#punto8 table {
+    background-color: yellow;
+    border: 1px dotted black;
+}
+
+#punto8 table th::first-letter{
+    font-weight: bold;
+}
+
+#punto8 table th{
+    color: red;
+    font-size: italic;
+    border: none;
+}
+
+#punto8 table td{   
+    padding: 0;
+    border: 1px dotted black;
+    
+}

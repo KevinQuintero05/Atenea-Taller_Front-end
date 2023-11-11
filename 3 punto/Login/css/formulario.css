@@ -1,0 +1,42 @@
+ body{ 
+	background-image: url('../img/almorrones.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;/*para que se adecue al tamaño total del navegador*/
+	background-attachment: fixed;/*posicionar imagen en un solo lugar*/
+	background-position: center;
+
+ }
+
+.formucolor{ 
+		max-width: 25em;
+		padding: 1.3em;
+		margin: 0 auto;
+		/*background-color: rgba(196, 119, 123, 0.3);*/
+		font-weight: bold;
+		border-radius: 0.5em;
+		box-shadow: inset 1px 1px 22px 4px rgba(136, 136, 199, 0.85);
+		
+
+ }
+
+ h3{ color:#8A2BE2 ; 
+  }
+
+.boto{ 
+	margin-top: 8px; 
+	margin-right: 8px;
+	margin-left: -1.9px;
+
+
+
+ }
+ 
+ a{ 
+ text-decoration: none;
+ color:#7FFFD4 ;
+
+  }
+h3{ 
+	font-weight: 1em ;
+	color: #000;
+ }
